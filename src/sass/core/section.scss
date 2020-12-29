@@ -12,45 +12,6 @@
         background-size: cover;
     }
 
-    &_dangers {
-        background-image: url("../media/section/dangers.jpg");
-        background-position: center;
-        background-size: auto 100%;
-    }
-
-    &_effects {
-        background-image: url("../media/section/effects.jpg");
-        background-position: center bottom;
-        background-size: cover;
-    }
-
-    &_problems {
-        padding-top: 0;
-        padding-bottom: 50px;
-    }
-
-    &_treatment {
-        padding-bottom: 0;
-        background-image: url("../media/section/treatment.jpg");
-        background-position: right top;
-        background-size: cover;
-    }
-
-    &_sostav {
-        padding-top: 190px;
-        background-image: url("../media/section/sostav.jpg");
-        background-position: center;
-        background-size: cover;
-    }
-
-    &_professional {
-        padding-top: 60px;
-        padding-bottom: 60px;
-        background-image: url("../media/section/professional.jpg");
-        background-position: center;
-        background-size: cover;
-    }
-
     &_commits {
         background-color: #fff;
     }
@@ -60,7 +21,6 @@
     font-size: 56px;
     font-weight: 800;
     line-height: 1;
-    text-transform: uppercase;
 }
 
 @media (max-width: 1310px) {
@@ -68,15 +28,8 @@
         padding-top: 60px;
         padding-bottom: 60px;
 
-        &_dangers {
-            background-image: url("../media/section/dangers-1310.jpg");
-        }
-
-        &_treatment {
-            padding-top: 0;
-            background-image: url("../media/section/treatment-1310.jpg");
-            background-position: center bottom;
-            background-size: cover;
+        &_face {
+            background-image: url("../media/section/face-1310.jpg");
         }
     }
 
@@ -93,18 +46,6 @@
         &_face {
             background-image: url("../media/section/face-768.jpg");
         }
-
-        &_dangers {
-            padding-bottom: 480px;
-            background-image: url("../media/section/dangers-768.jpg");
-            background-position: center bottom;
-            background-size: auto;
-        }
-
-        &_treatment {
-            padding-top: 0;
-            background-image: url("../media/section/treatment-768.jpg");
-        }
     }
 
     .section__title {
@@ -113,20 +54,6 @@
 }
 
 @media (max-width: 480px) {
-    .section {
-        &_dangers {
-            padding-bottom: 360px;
-            background-image: url("../media/section/dangers-480.jpg");
-        }
-
-        &_treatment {
-            padding-top: 0;
-            background-image: url("../media/section/treatment-480.jpg");
-            background-position: center bottom;
-            background-size: 100% auto;
-        }
-    }
-
     .section__title {
         font-size: 30px;
     }
