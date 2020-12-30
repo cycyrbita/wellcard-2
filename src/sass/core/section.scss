@@ -20,6 +20,12 @@
         padding-top: 0;
     }
 
+    &_help {
+        background-image: url("../media/section/help.jpg");
+        background-position: center top;
+        background-size: cover;
+    }
+
     &_commits {
         background-color: #fff;
     }
@@ -38,6 +44,11 @@
 
         &_face {
             background-image: url("../media/section/face-1310.jpg");
+        }
+
+        &_help {
+            background-color: #fff;
+            background-image: url("../media/section/help-1310.jpg");
         }
     }
 
