@@ -47,7 +47,7 @@
     flex-direction: column;
     padding: 85px 50px 50px;
     margin: 60px 0 20px;
-    border: 3px solid #75ba8e;
+    background-color: #f5f5f5;
 }
 
 .commits__face {
@@ -58,7 +58,6 @@
     height: 120px;
     overflow: hidden;
     background-color: #e96771;
-    border: 3px solid #75ba8e;
     border-radius: 50%;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -67,15 +66,18 @@
 
 .commits__name {
     margin-bottom: 20px;
-    font-size: 28px;
+    font-size: 22px;
     font-weight: 700;
-    color: #75ba8e;
     text-align: center;
-    text-transform: uppercase;
 }
 
 .commits__name span {
     display: block;
+    margin-top: 5px;
+    font-family: "Codec-Warm", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
 .commits__description {
@@ -85,19 +87,15 @@
 }
 
 .commits__star {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    width: 100%;
-    margin-top: 20px;
+    max-width: 150px;
 }
 
-.commits__star img {
-    max-width: 33px;
-    margin-right: 2px;
+@media (max-width: 1310px) {
+    .commits__item {
+        padding-right: 25px;
+        padding-bottom: 25px;
+        padding-left: 25px;
+    }
 }
 
 @media (max-width: 480px) {
