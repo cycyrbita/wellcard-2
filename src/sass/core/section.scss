@@ -46,6 +46,8 @@
     }
 
     &_professional {
+        padding-top: 60px;
+        padding-bottom: 60px;
         overflow: hidden;
         background-image: url("../media/section/professional.jpg");
         background-position: center center;
@@ -53,6 +55,8 @@
     }
 
     &_commits {
+        padding-top: 60px;
+        padding-bottom: 40px;
         background-color: #fff;
     }
 }
@@ -104,6 +108,12 @@
 }
 
 @media (max-width: 480px) {
+    .section {
+        &_cards {
+            padding-top: 0;
+        }
+    }
+
     .section__title {
         font-size: 30px;
     }

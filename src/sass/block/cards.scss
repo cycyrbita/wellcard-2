@@ -160,7 +160,31 @@
         padding: 250px 30px 30px;
 
         &::before {
-            box-shadow: 0 0 200px 140px #000;
+            box-shadow: 0 0 200px 230px #000;
+        }
+
+        &:nth-child(1) {
+            background-image: url("../media/cards/img-1-480.jpg");
+        }
+
+        &:nth-child(2) {
+            background-image: url("../media/cards/img-2-480.jpg");
+        }
+
+        &:nth-child(3) {
+            background-image: url("../media/cards/img-3-480.jpg");
+        }
+
+        &:nth-child(4) {
+            background-image: url("../media/cards/img-4-480.jpg");
+        }
+
+        &:nth-child(5) {
+            background-image: url("../media/cards/img-5-480.jpg");
+        }
+
+        & > ul li {
+            font-size: 18px;
         }
     }
 
